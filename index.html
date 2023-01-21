@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Habitts</title>
 
     <link rel="stylesheet" href="./style.css" />
-<!-- Esse link serve para linkar o HTML ao CSS, importar o CSS no arquivo html.-->
-
-</head>
-<body>
-
+    <!-- Esse link serve para linkar o HTML ao CSS, importar o CSS no arquivo html.-->
+  </head>
+  <body>
     <!-- Header funciona como o cabeçalho -->
     <header>
-        
-        
-        <img src="./assets/logo.svg" alt="Logomarca do app Habits"/>
-        <button> <img src="./assets/plus.svg" alt="plus"/>
-          
-            <div>
-                Registrar o meu dia 
-            </div>
-           
-        </button>
+      <img src="./assets/logo.svg" alt="Logomarca do app Habits" />
+      <button>
+        <img src="./assets/plus.svg" alt="plus" />
+
+        <div>Registrar o meu dia</div>
+      </button>
     </header>
 
     <form id="form-habits">
-      <div class="habits"><!-- Abertura da classe Habits -->
+      <div class="habits">
+        <!-- Abertura da classe Habits -->
         <div class="habit" data-name="water">💧</div>
         <div class="habit" data-name="ler">📖</div>
         <div class="habit" data-name="estudar">📚</div>
@@ -40,18 +37,14 @@
         <div class="habit" data-name="cardio">🚲</div>
         <div class="habit" data-name="dieta">🥓</div>
         <div class="habit" data-name="gym">💪</div>
-    </div><!-- Fechamento da classe Habits -->
+      </div>
+      <!-- Fechamento da classe Habits -->
 
-    <div class="days"> <!-- Div de abertura da classe Days -->
-       
-
-    </div> <!-- Div de fechamento da classe days -->
-
-     
+      <div class="days"><!-- Div de abertura da classe Days --></div>
+      <!-- Div de fechamento da classe days -->
     </form>
 
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="./script.js"></script>
-        
-</body>
+  </body>
 </html>
